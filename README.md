@@ -27,7 +27,7 @@
 例1 : 
 
     ./bin/main -p /Users/chenbing/Downloads/html
-运行结果
+运行后,生成的文件内容(部分数据)
 
     appstyle.css,4d87b3fc257dbff0c83b86655d8af20b1e322446,4802 
     .DS_Store,1ee6a9948e5245be2cc5351140d848d0c6093e46,12292 
@@ -45,7 +45,7 @@
 例2 :
 
     ./bin/main -p /Users/chenbing/Downloads/html -o tree1.txt -f "*/images/*|*.css" -gr 5
-运行结果
+运行后,生成的文件内容(部分数据)
 
     bootstrap-theme.css.map,abc2e3a1163de52378c71bb92d007c22abb0a393,47721 
     icomoon.eot,c255d348d0c6015713d63b3d48e197fa49ba812b,15648 

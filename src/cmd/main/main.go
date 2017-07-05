@@ -46,8 +46,7 @@ func main() {
 	if len(filter) != 0 {
 		filterArr = strings.Split(filter, "|")
 	}
-
-	fmt.Printf("filterArr : %v \n", filterArr)
+	// fmt.Printf("filterArr : %v \n", filterArr)
 
 	// 输出目录树的文件
 	writef, err := os.OpenFile(outfile, os.O_RDWR|os.O_CREATE|os.O_APPEND, os.ModePerm)
